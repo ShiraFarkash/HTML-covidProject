@@ -1,0 +1,90 @@
+﻿body {
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.menu {
+    display: block;
+    background-color: #6178e6;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    color: #ffffff;
+    background-color: #6178e6;
+}
+
+.details li {
+    list-style-type: none;
+}
+.dropdown {
+    display: inline-block;
+   text-align:left;
+}
+
+.details a {
+    display: block;
+    text-align: initial;
+    width: 220px;
+    background-color:#ffffff;
+    color:#000000;
+  
+}
+
+.details {
+    display: none;
+    position: absolute;
+    
+    width: 70px;
+}
+
+.dropdown:hover .details.ul {
+    display: block;
+    
+}
+
+.dropdown:hover .details {
+    display: block;
+}
+
+img {
+   /* width: 1200px;
+    height: 100.5px;
+    margin: 0px 0px 0px 149px;*/
+   margin-left:25%;
+}
+
+.details li:hover {
+    background-color: #000000;
+    color:#000000;
+}
+.thispage :hover{
+    color:#ffffff !important;
+}
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-wrap: normal /*מתי לעבור שורה*/
+}
+
+.ulul {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.num{
+    color:#768484;
+}
+.country {
+    color: #007ffa;
+}
+.special1{
+    background-color:#ffeeaa;
+}
+.special2 {
+    background-color:#ff0000;
+}

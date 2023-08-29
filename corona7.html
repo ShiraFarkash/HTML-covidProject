@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="css1.css" rel="stylesheet" />
+
+    <link href="bootstrap.css" rel="stylesheet" />
+</head>
+<body style="background-color:#66aede">
+
+    <h1 style="color:#2d5fe3; margin-left:50% ; margin-top:5%">covid 19</h1>
+    <h6 style="color:#6177e5; margin-left:40%"> all of the information about the Coronavirus around the world</h6>
+
+    <div class="menu">
+        <a href=" corona2.html" id="a1"> Home</a>
+        <a href=" corona3.html" id="a2"> News</a>
+        <a href=" corona4.html" id="a4"> Instruction</a>
+        <div class="dropdown">
+            <a href=" #" id="a3" class="thisPage" style="  background-color:#305be3"> Forms about the corona</a>
+            <div class="details">
+                <ul>
+                    <li><a href="corona1.html">Login again</a></li>
+                    <li><a href="corona6.html"> Fill out a health declaration</a></li>
+                    <li> <a href="corona8.html">report a corona patient</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <form method="post" action="corona7.html">
+        <div style="width: 40%; margin-top:20px; margin-left:25%">
+            <input type="text" style="margin-top:5px;" placeholder="Israel" class="form-control" />
+            <input type="text" style="margin-top:5px;" placeholder="Israely" class="form-control" />
+            <input type="number" style="margin-top:5px;" placeholder="id" class="form-control" />
+            <input type="checkbox" style="margin-top:5px;" />
+            <span style="color: black">I (or the person for whom you are completingthis form) currently don't have symptoms of, or have you been diagnosed with, pneumonia or coronavirus diseaea (COVID-19)</span><br />
+            <input type="checkbox" style="margin-top:5px;" />
+            <span style="color: black">In the past 10 days, I (or the person for whom you are completing this form) don't have been in contact with someone who is or could be infected with coronavirus</span>
+            <div style="margin-top:5px;">
+                <input type="submit" value="send answer" class="btn btn-primary" onclick="alert('accepted')" />
+                <input type="reset" value="Cancel" class="btn btn-danger" />
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>
